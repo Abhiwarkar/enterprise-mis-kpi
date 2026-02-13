@@ -1,0 +1,14 @@
+package com.company.mis.dto;
+
+import jakarta.validation.constraints.NotBlank;
+import lombok.Data;
+
+@Data
+public class DepartmentRequest {
+
+    @NotBlank
+    private String deptCode;
+
+    @NotBlank
+    private String deptName;
+}

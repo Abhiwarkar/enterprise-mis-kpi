@@ -1,0 +1,6 @@
+CREATE TABLE departments (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    dept_code VARCHAR(50) NOT NULL UNIQUE,
+    dept_name VARCHAR(100) NOT NULL,
+    active BOOLEAN NOT NULL
+);
