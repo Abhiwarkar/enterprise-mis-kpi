@@ -22,6 +22,7 @@ public class ReportServiceImpl implements ReportService {
     public List<KpiResultResponse> getReports() {
         return kpiResultRepository.findAll()
                 .stream()
+                .filter(result -> result.getDepartment() != null)
                 .map(result -> new KpiResultResponse(
                         result.getDepartment().getDeptCode(),
                         result.getMonth(),

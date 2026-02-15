@@ -24,6 +24,6 @@ public class MonthlyTarget {
     private Double targetValue;
 
     @ManyToOne
-    @JoinColumn(name = "department_id")
+    @JoinColumn(name = "department_id", nullable = false)
     private Department department;
 }

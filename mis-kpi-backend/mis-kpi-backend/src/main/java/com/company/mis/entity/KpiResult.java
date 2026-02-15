@@ -24,6 +24,6 @@ public class KpiResult {
     private String status;
 
     @ManyToOne
-    @JoinColumn(name = "department_id")
+    @JoinColumn(name = "department_id", nullable = false)
     private Department department;
 }
