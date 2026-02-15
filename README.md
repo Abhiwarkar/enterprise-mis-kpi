@@ -12,10 +12,40 @@ Enterprise MIS & KPI Monitoring System built using Spring Boot 3.
 - Flyway (Database Migration)
 - MySQL 8
 - Swagger (OpenAPI)
-- JWT Security
 - Maven
 
 ---
+
+🏢 Enterprise MIS & KPI Monitoring Backend
+
+This project is a backend system designed to monitor, evaluate, and report Key Performance Indicators (KPIs) across different departments in an organization. It enables management to track monthly targets, actual performance, and KPI status in a structured and automated way.
+
+The system is built using Spring Boot 3, JPA (Hibernate), Flyway, and MySQL 8, following industry-level architecture and best practices.
+
+🎯 Purpose of the Project
+
+In many organizations:
+
+Departments set monthly targets
+
+Actual performance data is collected
+
+Management manually compares results in Excel
+
+Reports are prepared manually
+
+This project automates that entire workflow.
+
+It provides:
+
+Target vs Actual comparison
+
+KPI calculation engine
+
+Monthly reporting
+
+Centralized monitoring dashboard APIs
+
 
 ## 📂 Project Structure
 
